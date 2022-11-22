@@ -24,7 +24,7 @@
     "eslint-plugin-solid": "0.8.0",
     "@typescript-eslint/eslint-plugin": "5.44.0",
     "@typescript-eslint/parser": "5.44.0",
-    "solid-start-vercel": "0.2.5"
+    "solid-start-netlify": "0.2.5"
   },
   "engines": {
     "node": ">=16"
