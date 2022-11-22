@@ -8,7 +8,7 @@ export default defineConfig({
     windicss(),
     solid({
       adapter: netlify({
-        edge: true,
+        // edge: true,
       }),
     }),
   ],
