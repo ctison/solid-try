@@ -1,0 +1,4 @@
+*-lock.yaml
+/.fttemplates/
+/.solid/
+/netlify/

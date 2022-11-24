@@ -15,7 +15,8 @@ import {
   Routes,
   Scripts,
 } from 'solid-start'
-import './root.css'
+import { Header } from './components/Header'
+import { Footer } from './components/Footer'
 
 const emojiSvg = (emoji: string) => {
   return (
@@ -30,14 +31,18 @@ export default function Root() {
       <Head>
         <Meta charset='utf-8' />
         <Meta name='viewport' content='width=device-width, initial-scale=1' />
-        <Link rel='icon' href={emojiSvg('☄️')} />
+        <Link rel='icon' href={emojiSvg('🔮')} />
       </Head>
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <Routes>
-              <FileRoutes />
-            </Routes>
+            <Header />
+            <main>
+              <Routes>
+                <FileRoutes />
+              </Routes>
+            </main>
+            <Footer />
           </ErrorBoundary>
         </Suspense>
         <Scripts />
