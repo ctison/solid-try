@@ -12,6 +12,7 @@ export const Tile: Component<TileProps> = (props) => {
       class='tile hover:(outline outline-1 outline-solid-black filter hue-rotate-15)'
       onClick={() => props.onClick()}
       style={x.style}
+      aria-hidden='true'
     />
   )
 }

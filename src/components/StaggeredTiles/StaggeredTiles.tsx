@@ -28,6 +28,7 @@ export const StaggeredTiles: Component = () => {
         'grid-template-rows': `repeat(${grid().rows}, 1fr)`,
         'grid-template-columns': `repeat(${grid().columns}, 1fr)`,
       }}
+      aria-hidden='true'
     >
       <h1
         class='white absolute w-full top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 z-10 text-center pointer-events-none text-6xl select-none'

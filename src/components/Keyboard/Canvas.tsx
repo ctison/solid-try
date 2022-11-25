@@ -45,7 +45,7 @@ export const Canvas: Component<CanvasProps> = (props) => {
     })
   })
 
-  return <canvas ref={setCanvasRef} />
+  return <canvas ref={setCanvasRef} aria-label='3D Interactive Keyboard' />
 }
 
 export default Canvas
