@@ -44,7 +44,8 @@ export const StaggeredTiles: Component = () => {
             onClick={() => {
               colorIndex = (colorIndex + 1) % colors.length
               gsap.to('.tile', {
-                backgroundColor: colors[colorIndex],
+                // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+                backgroundColor: colors[colorIndex]!,
                 stagger: {
                   each: 0.025,
                   grid: [grid().rows, grid().columns],

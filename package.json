@@ -39,7 +39,7 @@
     "solid-styled-components": "0.28.5",
     "sort-package-json": "2.1.0",
     "typescript": "4.9.3",
-    "undici": "5.12.0",
+    "undici": "5.13.0",
     "vite": "3.2.4",
     "vite-plugin-windicss": "1.8.8",
     "windicss": "3.5.6"

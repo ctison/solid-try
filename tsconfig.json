@@ -51,5 +51,5 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "vite.config.ts", "windi.config.ts"]
+  "include": ["src/**/*"]
 }

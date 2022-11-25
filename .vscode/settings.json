@@ -1,6 +1,13 @@
 {
   "typescript.tsdk": "./node_modules/typescript/lib",
-  "cSpell.words": ["splinetool", "windicss"],
+  "cSpell.words": [
+    "Devdotto",
+    "fontsource",
+    "gsap",
+    "splinetool",
+    "windi",
+    "windicss"
+  ],
   "cSpell.ignorePaths": [
     "package.json",
     "package-lock.json",
